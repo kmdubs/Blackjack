@@ -23,12 +23,3 @@ class Deck():
 
 	def __repr__(self):
 		return str(self._cards)
-
-
-if __name__ == '__main__':
-	d = Deck()
-
-	print d[51]
-
-	d.shuffle()
-	print d			
