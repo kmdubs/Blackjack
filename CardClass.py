@@ -34,15 +34,3 @@ class Card():
 
 	def getSuit(self):
 		return self.suit
-
-
-if __name__ == '__main__':
-	card1 = Card(14, "clubs")
-
-	a = card1.getValue()
-	print a
-
-	print card1
-
-	suit = card1.getSuit()
-
